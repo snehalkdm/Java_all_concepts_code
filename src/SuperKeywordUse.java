@@ -29,5 +29,7 @@ public class SuperKeywordUse {
         Cat cat = new Cat();
         cat.checkColor();
         cat.checkActivity();
+        Animal animal = new Cat();              //upcasting
+        animal.eat();
     }
 }
